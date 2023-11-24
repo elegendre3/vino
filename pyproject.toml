@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "vino"
+version = "0.1.0"
+description = "Map and data of the wine stored in the cellar"
+authors = ["Eliott Legendre legendre.eliott@gmail.com"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "~3.10"
+streamlit = "^1.28.0"
+pandas = "^1.4"
