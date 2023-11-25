@@ -62,7 +62,7 @@ def homepage_content():
 
 
     def color(s):
-        return [f'background-color: white'] * 9 + [f'background-color: {s.Hex}']
+        return [f'background-color: white'] * 9 + [f'background-color: {s.Hex}'] + [f'background-color: white'] 
 
     st.dataframe(df.drop(columns=['Unnamed: 10'], errors='ignore').style.apply(color, axis=1))
 
